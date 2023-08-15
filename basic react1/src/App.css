@@ -1,0 +1,10 @@
+.App{
+    text-align: center;
+    color: darkmagenta
+}
+
+.testing-props-className{
+    color:red;
+    font-size: 30px;
+    text-align: center;
+}
