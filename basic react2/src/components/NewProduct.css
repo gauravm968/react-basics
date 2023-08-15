@@ -1,0 +1,7 @@
+.new-product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: violet;
+    border-radius: 10px;
+}
