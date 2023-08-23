@@ -41,15 +41,10 @@ function App() {
       <input type='text' onChange={changeHandler}></input>
     </div>
   );
-}
+} 
+//useEffect hook
+// ex. wanna change dom, add new element, remove old element, add/remove any listener, title change, http request, api call
 
-//useState hook -> (state) variable state handle and reflect changes on ui  
-//useEffect hook -> do something (any task (this task also called side effect)) after component render
-// ex. wanna change dom, add new element, remove old element, add/remove any listener, title change, http request, api call 
-// useEffect(callback, [any array/list of dependencies]) //here [] -> is dependency list, [name] -> name is dependency
-
-//component has mounted -> component has rendered on dom
-//component unmouted -> component has removed from dom
-
-//hw -> print window size with update on ui
+//component mounted -> component rendered on dom
+//component unmouted -> component removed from dom
 export default App;
