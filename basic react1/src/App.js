@@ -35,7 +35,6 @@ function App() {
       <Item name={response[1].itemName} ></Item>
       <ItemData day={response[1].itemDate} month={response[1].itemMonth} year={response[1].itemYear}></ItemData> */}
       
-      {/* here testing pass className as props (on component class works when {props.className}) */}
       <Card className='testing-props-className'> 
       <Item name={response[0].itemName}>
          Hi this text is visible through props.children
